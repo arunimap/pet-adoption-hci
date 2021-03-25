@@ -11,6 +11,7 @@ All members are registered for the IS4300 version of the course
 T1: https://drive.google.com/file/d/1Sk5AoaAq6ad4Wfrw401xUQujHDU0CDo_/view?usp=sharing
 
 T2: https://drive.google.com/file/d/1eJ46IJNX4EUjNzEgdJbLfb66IRWnQ13Y/view?usp=sharing
+
 T3: https://docs.google.com/document/d/1TieORWYM5mJLATECyZAYnGXzN_5EPYFbKDagnI3wjcg/edit?usp=sharing
 Paper Prototype — Version 1
 Paper Prototype — Revised
