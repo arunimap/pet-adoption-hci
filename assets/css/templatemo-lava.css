@@ -21,16 +21,16 @@ Table of contents
 10. preloader
 
 --------------------------------------------- */
-/* 
+/*
 ---------------------------------------------
 font & reset css
---------------------------------------------- 
+---------------------------------------------
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
-/* 
+/*
 ---------------------------------------------
 reset
---------------------------------------------- 
+---------------------------------------------
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
@@ -106,10 +106,10 @@ p {
   color: #888;
 }
 
-/* 
+/*
 ---------------------------------------------
 global styles
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body {
@@ -229,10 +229,10 @@ button.main-button:hover {
 }
 
 
-/* 
+/*
 ---------------------------------------------
 header
---------------------------------------------- 
+---------------------------------------------
 */
 
 .background-header {
@@ -648,10 +648,10 @@ header
 }
 
 
-/* 
+/*
 ---------------------------------------------
 welcome
---------------------------------------------- 
+---------------------------------------------
 */
 .welcome-area {
   width: 100%;
@@ -714,7 +714,7 @@ welcome
   .welcome-area {
     height: auto;
   }
-  .welcome-area .header-text {       
+  .welcome-area .header-text {
     width: 92%;
     padding-top: 793px;
   }
@@ -732,7 +732,7 @@ welcome
     padding-top: 100%;
     margin-left: 0;
   }
-    
+
   .container-fluid .col-md-12 {
     margin-right: 0px;
     padding-right: 0px;
@@ -898,21 +898,48 @@ testimonials
 }
 
 #testimonials .item .testimonial-content p {
-  color: #fff;
+  color: #1e1e1e;
   font-style: italic;
-  font-weight: 200;
+  font-weight: 400;
   margin: 20px 0px 15px 0px;
 }
 
 #testimonials .item .testimonial-content span {
   color: #fff;
   font-weight: 200;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 #testimonials .author img {
-  max-width: 120px;
-  margin-bottom: -60px;
+  width: 100%;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.speechbox {
+  width: 100%;
+  margin: 50px auto;
+  border: 4px solid #fff;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #fff;
+  color: #fff;
+  position: relative;
+}
+
+/* speech bubble arrow */
+.sb:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid transparent;
+  right: 50%;
+  bottom: -23px;
 }
 
 .owl-carousel .owl-nav button.owl-next span {
@@ -921,15 +948,15 @@ testimonials
   border-radius: 10px;
   font-size: 46px;
   color: #fff;
-  right: -210px;
+  right: auto;
   width: 80px;
   height: 80px;
   line-height: 80px;
   text-align: center;
-  display: inline-block;
+  display: block;
   background: rgb(244,129,63);
   background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
-  position: absolute;
+  position: relative;
 }
 
 .owl-carousel .owl-nav button.owl-prev span {
@@ -938,15 +965,15 @@ testimonials
   border-radius: 10px;
   font-size: 46px;
   color: #fff;
-  right: -150px;
+  right: 0px;
   width: 80px;
   height: 80px;
   line-height: 80px;
   text-align: center;
-  display: inline-block;
+  display: block;
   background: rgb(244,129,63);
   background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
-  position: absolute;
+  position: relative;
 }
 
 @media screen and (max-width: 1060px) {
@@ -955,10 +982,10 @@ testimonials
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 footer
---------------------------------------------- 
+---------------------------------------------
 */
 
 @media (max-width: 992px) {
@@ -998,7 +1025,7 @@ footer .footer-content {
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-  
+
 }
 
 footer .right-content {
@@ -1151,10 +1178,10 @@ footer .sub-footer p {
   }
 }
 
-/* 
+/*
 ---------------------------------------------
 preloader
---------------------------------------------- 
+---------------------------------------------
 */
 #preloader {
   overflow: hidden;
@@ -1234,10 +1261,10 @@ preloader
     opacity: 0;
   }
 }
-/* 
+/*
 ---------------------------------------------
 credit card css
---------------------------------------------- 
+---------------------------------------------
 */
 .padding {
     padding: 5rem !important;
@@ -1286,15 +1313,15 @@ credit card css
     box-shadow: 0 0 0 #F44336
 }
 
-/* 
+/*
 ---------------------------------------------
 sign up form css
---------------------------------------------- 
+---------------------------------------------
 */
 signup-form {
   width: 400px;
   margin: 0 auto;
-  padding: 30px 0;    
+  padding: 30px 0;
 }
 .signup-form form {
   color: #999;
@@ -1322,12 +1349,12 @@ signup-form {
 .signup-form .form-control {
   min-height: 38px;
   box-shadow: none !important;
-} 
+}
 .signup-form .input-group-addon {
   max-width: 42px;
   text-align: center;
-} 
-.signup-form .btn, .signup-form .btn:active {        
+}
+.signup-form .btn, .signup-form .btn:active {
   font-size: 16px;
   font-weight: bold;
   background: #19aa8d !important;
@@ -1338,7 +1365,7 @@ signup-form {
   background: #179b81 !important;
 }
 .signup-form a {
-  color: #fff;  
+  color: #fff;
   text-decoration: underline;
 }
 .signup-form a:hover {
@@ -1347,7 +1374,7 @@ signup-form {
 .signup-form form a {
   color: #19aa8d;
   text-decoration: none;
-} 
+}
 .signup-form form a:hover {
   text-decoration: underline;
 }
