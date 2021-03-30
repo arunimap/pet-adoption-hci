@@ -870,6 +870,7 @@ testimonials
 
 #testimonials .item {
   position: relative;
+  height: 100%;
 }
 
 #testimonials .item .testimonial-content {
@@ -879,6 +880,7 @@ testimonials
   padding: 40px 30px;
   text-align: center;
   border-radius: 5px;
+  max-height: inherit;
 }
 
 #testimonials .item .testimonial-content ul li {
