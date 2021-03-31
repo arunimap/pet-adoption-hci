@@ -110,8 +110,7 @@
                       <h4>Sally</h4>
                       <span>Shelter 60 days</span>
                       <div class="slider-buttons">
-                        <a href="treat.html" class="main-button" data-toggle="modal" data-target="#myModal">Give a Treat </a>
-                        <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+                        <a href="" class="main-button" data-toggle="modal" data-target="#myModal">Give a Treat </a>
                         <a href="#View Photo Collection" class="main-button">Contact Shelter </a>
                       </div>
                   </div>
@@ -139,7 +138,7 @@
                       <h4>Teresa</h4>
                       <span>Shelter 59 days</span>
                       <div class="slider-buttons">
-                        <a href="" class="main-button">Give a Treat </a>
+                       <a href="" class="main-button" data-toggle="modal" data-target="#myModal">Give a Treat </a>
                         <a href="#View Photo Collection" class="main-button">Contact Shelter </a>
                       </div>
                   </div>
@@ -164,7 +163,7 @@
                       <h4>George</h4>
                       <span>Shelter 59 days</span>
                       <div class="slider-buttons">
-                        <a href="" class="main-button">Give a Treat </a>
+                        <a href="" class="main-button" data-toggle="modal" data-target="#myModal">Give a Treat </a>
                         <a href="#View Photo Collection" class="main-button">Contact Shelter </a>
                       </div>
                   </div>
@@ -189,7 +188,7 @@
                       <h4>Sir James</h4>
                       <span>Shelter 59 days</span>
                       <div class="slider-buttons">
-                        <a href="" class="main-button">Give a Treat </a>
+                        <a href="" class="main-button" data-toggle="modal" data-target="#myModal">Give a Treat </a>
                         <a href="#View Photo Collection" class="main-button">Contact Shelter </a>
                       </div>
                   </div>
@@ -214,7 +213,7 @@
                       <h4>Carbon</h4>
                       <span>Shelter 56 days</span>
                       <div class="slider-buttons">
-                        <a href="" class="main-button">Give a Treat </a>
+                        <a href="" class="main-button" data-toggle="modal" data-target="#myModal">Give a Treat </a>
                         <a href="#View Photo Collection" class="main-button">Contact Shelter </a>
                       </div>
                   </div>
@@ -237,7 +236,7 @@
                       <h4>Cooper</h4>
                       <span>Shelter 50 days</span>
                       <div class="slider-buttons">
-                        <a href="" class="main-button">Give a Treat </a>
+                        <a href="" class="main-button" data-toggle="modal" data-target="#myModal">Give a Treat </a>
                         <a href="#View Photo Collection" class="main-button">Contact Shelter </a>
                       </div>
                   </div>
@@ -255,15 +254,11 @@
     
       <!-- Modal content-->
       <div class="modal-content">
-        <div class="modal-header">
-          <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
-          <!-- <h4 class="modal-title">Give a Real Treat to the Pet</h4> -->
-        </div>
         <div class="modal-body">
-          <p>You can give a pet a treat by donating to the shelter. Would you like to set up payment information now? </p>
+          <H4>You can give a pet a treat by donating to the shelter. Would you like to set up payment information now? </H4>
         </div>
         <div class="modal-footer">
-          <a href="creditcard.html" class="main-button" data-toggle="modal" data-target="#myCreditModal">Yes </a>
+          <a href="creditcard.html" class="main-button" data-toggle="modal" data-target="#myCreditModal" data-dismiss="modal">Yes </a>
           <button type="button" class="btn btn-default" data-dismiss="modal">No I will not give a treat</button>
         </div>
       </div>
@@ -356,7 +351,7 @@
                     </div>
                 </div>
                 <div class="card-footer">
-                    <a href="" class="main-button" data-toggle="modal" data-target="#myVerificationModal">Continue </a>
+                    <a href="" class="main-button" data-toggle="modal" data-target="#myVerificationModal" data-dismiss="modal">Continue </a>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                 </div>
             </div>
@@ -371,15 +366,21 @@
     
       <!-- Modal content-->
       <div class="modal-content">
-        <div class="modal-header">
-          <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
-          <!-- <h4 class="modal-title">Give a Real Treat to the Pet</h4> -->
-        </div>
         <div class="modal-body">
-          <p>VERIFY HOW MUCH TO DONATE</p>
+          <H4>How much would you like to donate? This donation will go towards the animal and shelter.</H4>
+          <br>
+              <select class="form-control" name="select">
+                  <option value="" selected="">Amount</option>
+                  <option value="black">$5</option>
+                  <option value="white">$10</option>
+                  <option value="gold">$15</option>
+              </select>
+              <br>
+              <label for="fname">Other</label>
+              <input type="text" id="fname" name="fname"><br><br>
         </div>
         <div class="modal-footer">
-          <a href="creditcard.html" class="main-button" data-toggle="modal" data-target="#myCreditModal">Yes </a>
+          <a href="" class="main-button" data-toggle="modal" data-target="#thanksModal" data-dismiss="modal">Give Donation </a>
           <button type="button" class="btn btn-default" data-dismiss="modal">No I will not give a treat</button>
         </div>
       </div>
@@ -389,15 +390,23 @@
   
 </div>
  <!-- Verification Modal end -->
-
-    <!--     <div class="row">
-            <div class="col-lg-12">
-                <div class="sub-footer">
-                    <p>Copyright &copy; 2020 Lava Landing Page
-                        | Designed by <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
-                </div>
-            </div>
-        </div> -->
+  <!-- Thank You Modal -->
+  <div class="modal fade" id="thanksModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <H4>Thank You for Donating! The treats will make my day!</H4>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+ <!-- Verification Modal end -->
     </div>
 </footer>
 <!-- jQuery -->
