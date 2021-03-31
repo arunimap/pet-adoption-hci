@@ -83,6 +83,11 @@ input[type="radio"]:checked + section { display: block; }
 
 /* favorite button */
 
+.fav {
+  position: relative;
+  width: 10%;
+}
+
 .fav i {
   cursor:pointer;
   padding:10px 12px 8px;
@@ -106,6 +111,7 @@ input[type="radio"]:checked + section { display: block; }
 
 .fav span {
   position: absolute;
+  width: auto;
   bottom:70px;
   left:0;
   right:0;
@@ -113,7 +119,7 @@ input[type="radio"]:checked + section { display: block; }
   transition:.6s;
   z-index:-2;
   font-size:2px;
-  color:transparent;
+  color:#fff;
   font-weight:400;
 }
 
@@ -129,13 +135,13 @@ input[type="radio"]:checked + section { display: block; }
   animation: fade 1s;
 }
 
-.fav @keyframes fade {
+@keyframes fade {
   0% {color:#transparent;}
   50% {color:#e23b3b;}
   100% {color:#transparent;}
 }
 
-.fav @keyframes size {
+@keyframes size {
   0% {padding:10px 12px 8px;}
   50% {padding:14px 16px 12px;
     margin-top:-4px;}
