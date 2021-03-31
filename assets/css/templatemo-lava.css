@@ -911,36 +911,10 @@ testimonials
   font-size: 16px;
 }
 
-#testimonials .author img {
-  height: 25vw;
+#testimonials .item .author img {
+  height: 30vh;
   margin-bottom: 0px;
   position: relative;
-}
-
-.speechbox {
-  width: 75%;
-  margin: 50px auto;
-  border: 4px solid #fff;
-  padding: 20px;
-  border-radius: 15px;
-  text-align: center;
-  background-color: #fff;
-  color: #fff;
-  position: relative;
-}
-
-/* speech bubble arrow */
-.sb:after {
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #fff;
-  border-bottom: 10px solid transparent;
-  right: 50%;
-  bottom: -23px;
 }
 
 .owl-carousel .owl-nav button.owl-next span {

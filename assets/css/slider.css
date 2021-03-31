@@ -2,9 +2,34 @@ input[type="radio"] { display: none; }
 
 input[type="radio"]:checked + section { display: block; }
 
+.speechbox {
+  max-width: 75%;
+  margin: 10px auto;
+  border: 4px solid #fff;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #fff;
+  color: #fff;
+  position: relative;
+}
+
+/* speech bubble arrow */
+.sb:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid transparent;
+  right: 50%;
+  bottom: -23px;
+}
+
 #testimonials .slider {
   position: relative;
-  width: 100%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }

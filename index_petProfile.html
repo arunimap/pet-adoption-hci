@@ -7,24 +7,6 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <title>Paw Patrol</title>
-
-    <script>
-
-      // Favorite Button - Heart
-      $('.favme').click(function() {
-      	$(this).toggleClass('active');
-      });
-
-      /* when a user clicks, toggle the 'is-animating' class */
-      $(".favme").on('click touchstart', function(){
-        $(this).toggleClass('is_animating');
-      });
-
-      /*when the animation is over, remove the class*/
-      $(".favme").on('animationend', function(){
-        $(this).toggleClass('is_animating');
-      });
-    </script>
     <!--
     Lava Landing Page
     https://templatemo.com/tm-540-lava-landing-page
@@ -134,7 +116,6 @@
                       </div>
                   </div>
                 </div>
-                <label for="rad3"><i class="fa fa-chevron-left"></i></label>
                 <label for="rad2"><i class="fa fa-chevron-right"></i></label>
               </section>
 
@@ -142,6 +123,9 @@
               <section>
                 <div class="item service-item">
                   <div class="testimonial-content">
+                    <div class="fav-btn">
+                      <span href="" class="favme dashicons dashicons-heart"></span>
+                    </div>
                     <div class="author">
                         <div class="speechbox sb">
                           <p>“Hi, I'm Teresa! I am a very energetic, loving, and playful dog! I shows my love by jumping
@@ -151,13 +135,18 @@
                         </div>
                         <i><img src="assets/images/teresa.png" alt="Author One"></i>
                     </div>
-                      <h4>Tereasa</h4>
+                      <h4>Teresa</h4>
                       <span>Shelter 59 days</span>
+                      <div class="slider-buttons">
+                        <a href="" class="main-button">Give a Treat </a>
+                        <a href="#View Photo Collection" class="main-button">Adopt </a>
+                      </div>
                   </div>
                 </div>
                 <label for="rad1"><i class="fa fa-chevron-left"></i></label>
                 <label for="rad3"><i class="fa fa-chevron-right"></i></label>
               </section>
+
               <input id="rad3" type="radio" name="rad">
               <section>
                 <div class="item service-item">
@@ -169,14 +158,90 @@
                               yard for energetic play. I am an exceptionally athletic and eager playmate who will
                               require a good yarn for my favorite pastime!”</p>
                         </div>
-                        <i><img src="cat1.png" alt="Author One"></i>
+                        <i><img src="assets/images/cat1.png" alt="Author One"></i>
                     </div>
                       <h4>George</h4>
                       <span>Shelter 59 days</span>
+                      <div class="slider-buttons">
+                        <a href="" class="main-button">Give a Treat </a>
+                        <a href="#View Photo Collection" class="main-button">Adopt </a>
+                      </div>
                   </div>
                 </div>
                 <label for="rad2"><i class="fa fa-chevron-left"></i></label>
                 <label for="rad4"><i class="fa fa-chevron-right"></i></label>
+              </section>
+
+              <input id="rad4" type="radio" name="rad">
+              <section>
+                <div class="item service-item">
+                  <div class="testimonial-content">
+                    <div class="author">
+                        <div class="speechbox sb">
+                          <p>“Hi, I'm Sir James, and I am looking for someone to sit on the couch and eat snacks with
+                              all day. I may not make the best running partner, but I make an amazing cuddling partner!
+                              Although I am an expert at snuggling, I also takes his playtime very seriously.
+                              I loves playing tug and have a talent for extracting the squeaker from just about any toy."</p>
+                        </div>
+                        <i><img src="assets/images/dog3.png" alt="Author One"></i>
+                    </div>
+                      <h4>Sir James</h4>
+                      <span>Shelter 59 days</span>
+                      <div class="slider-buttons">
+                        <a href="" class="main-button">Give a Treat </a>
+                        <a href="#View Photo Collection" class="main-button">Adopt </a>
+                      </div>
+                  </div>
+                </div>
+                <label for="rad3"><i class="fa fa-chevron-left"></i></label>
+                <label for="rad5"><i class="fa fa-chevron-right"></i></label>
+              </section>
+
+              <input id="rad5" type="radio" name="rad">
+              <section>
+                <div class="item service-item">
+                  <div class="testimonial-content">
+                    <div class="author">
+                        <div class="speechbox sb">
+                          <p>“Hi, I'm Sir James, and I am looking for someone to sit on the couch and eat snacks with
+                              all day. I may not make the best running partner, but I make an amazing cuddling partner!
+                              Although I am an expert at snuggling, I also takes his playtime very seriously.
+                              I loves playing tug and have a talent for extracting the squeaker from just about any toy."</p>
+                        </div>
+                        <i><img src="assets/images/cat2.png" alt="Author One"></i>
+                    </div>
+                      <h4>Carbon</h4>
+                      <span>Shelter 56 days</span>
+                      <div class="slider-buttons">
+                        <a href="" class="main-button">Give a Treat </a>
+                        <a href="#View Photo Collection" class="main-button">Adopt </a>
+                      </div>
+                  </div>
+                </div>
+                <label for="rad4"><i class="fa fa-chevron-left"></i></label>
+                <label for="rad6"><i class="fa fa-chevron-right"></i></label>
+              </section>
+
+              <input id="rad6" type="radio" name="rad">
+              <section>
+                <div class="item service-item">
+                  <div class="testimonial-content">
+                    <div class="author">
+                        <div class="speechbox sb">
+                          <p>“Hi nice to meet you I am Cooper! Will you be my family?
+                            I have been in the shelter 50 days. I love my naps!"</p>
+                        </div>
+                        <i><img src="assets/images/dog3.png" alt="Author One"></i>
+                    </div>
+                      <h4>Cooper</h4>
+                      <span>Shelter 50 days</span>
+                      <div class="slider-buttons">
+                        <a href="" class="main-button">Give a Treat </a>
+                        <a href="#View Photo Collection" class="main-button">Adopt </a>
+                      </div>
+                  </div>
+                </div>
+                <label for="rad5"><i class="fa fa-chevron-left"></i></label>
               </section>
             </div>
         </div>
