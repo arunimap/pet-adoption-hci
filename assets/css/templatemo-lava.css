@@ -167,6 +167,7 @@ a.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
+  margin:10px;
   background-color: #f4813f;
   text-transform: uppercase;
   color: #fff;
