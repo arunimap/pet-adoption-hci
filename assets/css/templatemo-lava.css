@@ -863,14 +863,14 @@ testimonials
 }
 
 #testimonials {
-  padding-top: 100px;
+  padding-top: 50px;
   position: relative;
   z-index: 9;
 }
 
 #testimonials .item {
   position: relative;
-  height: 100%;
+  height: 50%;
 }
 
 #testimonials .item .testimonial-content {
@@ -880,7 +880,6 @@ testimonials
   padding: 40px 30px;
   text-align: center;
   border-radius: 5px;
-  max-height: inherit;
 }
 
 #testimonials .item .testimonial-content ul li {
@@ -913,13 +912,13 @@ testimonials
 }
 
 #testimonials .author img {
-  width: 100%;
+  height: 25vw;
   margin-bottom: 0px;
   position: relative;
 }
 
 .speechbox {
-  width: 100%;
+  width: 75%;
   margin: 50px auto;
   border: 4px solid #fff;
   padding: 20px;

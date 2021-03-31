@@ -7,6 +7,24 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <title>Paw Patrol</title>
+
+    <script>
+
+      // Favorite Button - Heart
+      $('.favme').click(function() {
+      	$(this).toggleClass('active');
+      });
+
+      /* when a user clicks, toggle the 'is-animating' class */
+      $(".favme").on('click touchstart', function(){
+        $(this).toggleClass('is_animating');
+      });
+
+      /*when the animation is over, remove the class*/
+      $(".favme").on('animationend', function(){
+        $(this).toggleClass('is_animating');
+      });
+    </script>
     <!--
     Lava Landing Page
     https://templatemo.com/tm-540-lava-landing-page
@@ -98,6 +116,9 @@
               <section>
                 <div class="item service-item">
                   <div class="testimonial-content">
+                    <div class="fav-btn">
+                      <span href="" class="favme dashicons dashicons-heart"></span>
+                    </div>
                     <div class="author">
                         <div class="speechbox sb">
                           <p>“Hi nice to meet you! My name is Sally! Will you be my family? I have been in the shelter 60 days.
@@ -107,11 +128,16 @@
                     </div>
                       <h4>Sally</h4>
                       <span>Shelter 60 days</span>
+                      <div class="slider-buttons">
+                        <a href="" class="main-button">Give a Treat </a>
+                        <a href="#View Photo Collection" class="main-button">Adopt </a>
+                      </div>
                   </div>
                 </div>
                 <label for="rad3"><i class="fa fa-chevron-left"></i></label>
                 <label for="rad2"><i class="fa fa-chevron-right"></i></label>
               </section>
+
               <input id="rad2" type="radio" name="rad">
               <section>
                 <div class="item service-item">
