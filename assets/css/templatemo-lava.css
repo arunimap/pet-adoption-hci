@@ -689,7 +689,7 @@ welcome
   color: #7a7a7a;
   line-height: 30px;
   letter-spacing: 0.25px;
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;*/
   position: relative;
 }
 
@@ -863,7 +863,7 @@ testimonials
 }
 
 #testimonials {
-  padding-top: 50px;
+  padding-top: 10px;
   position: relative;
   z-index: 9;
 }
