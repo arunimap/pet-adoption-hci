@@ -661,7 +661,7 @@ welcome
   min-height: 793px;
   background-image: url(../images/newbanner.png);
   background-repeat: no-repeat;
-  background-position: left 100% top 35%;
+  background-position: left 90% top 35%;
 }
 
 .welcome-area .header-text .left-text {
