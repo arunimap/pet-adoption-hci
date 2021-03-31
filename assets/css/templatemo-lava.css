@@ -1242,7 +1242,7 @@ credit card css
 ---------------------------------------------
 */
 .padding {
-    padding: 5rem !important;
+    padding: 10px;
     margin-left: 300px
 }
 
@@ -1367,6 +1367,7 @@ signup-form {
   position: absolute;
 }
 
-        .product_view .modal-dialog{max-width: 800px; width: 100%;}
-        .pre-cost{text-decoration: line-through; color: #a5a5a5;}
-        .space-ten{padding: 10px 0;}
+.product_view .modal-dialog{max-width: 800px; width: 100%;}
+.pre-cost{text-decoration: line-through; color: #a5a5a5;}
+.space-ten{padding: 10px 0;}
+.modal-content{padding:30px;}
