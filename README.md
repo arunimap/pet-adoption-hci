@@ -1,7 +1,8 @@
 # pet-adoption-hci
 IS4300 Paw Patrol Web Page
 
-Members (All members are registered for the IS4300 version of the course)
+## The Team 
+Note: All members are registered for the IS4300 (undergrad) version of the course
 - Megan Lau, lau.me@northeastern.edu
 - Christina Medeiros, medeiros.ch@northeastern.edu
 - Arunima Prasad, prasad.aru@northeastern.edu
