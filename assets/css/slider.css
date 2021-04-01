@@ -76,16 +76,15 @@ input[type="radio"]:checked + section { display: block; }
   margin-bottom: 25px;
 }
 
-.slider .slider-buttons {
+.slider-buttons {
   position: relative;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 /* favorite button */
 
 .fav {
   position: relative;
-  width: 10%;
 }
 
 .fav i {

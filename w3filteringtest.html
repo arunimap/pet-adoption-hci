@@ -6,47 +6,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-lava.css">
+  <link rel="stylesheet" href="assets/css/owl-carousel.css">
+  <link rel="stylesheet" href="assets/css/slider.css">
 </head>
-</head>
-<style>
-.filterDiv {
-  float: left;
-  background-color: #2196F3;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
-.container {
-  margin-top: 20px;
-  overflow: hidden;
-}
-
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
-}
-</style>
 <body>
 
 <h2>Filter DIV Elements</h2>
@@ -59,43 +24,154 @@
   <button class="btn" onclick="filterSelection('colors')" data-target="#myCarousel" data-slide-to="1"> Colors</button>
 </div>
 
-<div class="container">
-  <div class="filterDiv cars">BMW</div>
-  <div class="filterDiv colors fruits">Orange</div>
-  <div class="filterDiv cars">Volvo</div>
-  <div class="filterDiv colors">Red</div>
-  <div class="filterDiv cars animals">Mustang</div>
-  <div class="filterDiv colors">Blue</div>
-  <div class="filterDiv animals">Cat</div>
-  <div class="filterDiv animals">Dog</div>
-  <div class="filterDiv fruits">Melon</div>
-  <div class="filterDiv fruits animals">Kiwi</div>
-  <div class="filterDiv fruits">Banana</div>
-  <div class="filterDiv fruits">Lemon</div>
-  <div class="filterDiv animals">Cow</div>
-</div>
-<div class="container">
-  <h2>Carousel Example</h2>  
+<div class="container" id="testimonials">
+  <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
+
       <div class="item active">
-        <img src="assets/images/cat3.png" alt="Los Angeles" style="width:100%;">
+        <div class="testimonial-content">
+            <div class="author">
+              <div class="fav">
+                <i></i>
+                <span>Added to favorites!</span>
+              </div>
+                <div class="speechbox sb">
+                  <p>“Hi nice to meet you! My name is Sally! Will you be my family? I have been in the shelter 60 days.
+                    I love treats and running in the yard.”</p>
+                </div>
+                <i><img src="assets/images/sally.png" alt="Author One"></i>
+            </div>
+              <h4>Sally</h4>
+              <span>Shelter 60 days</span>
+              <div class="slider-buttons">
+                <a href="" class="main-button" data-toggle="modal" data-target="#myModal">Give a Treat </a>
+                <a href="#View Photo Collection" class="main-button">Contact Shelter </a>
+              </div>
+          </div>
       </div>
 
       <div class="item">
-        <img src="assets/images/cat2.png" alt="Chicago" style="width:100%;">
+        <div class="testimonial-content">
+          <div class="author">
+            <div class="fav">
+              <i></i>
+              <span>Added to favorites!</span>
+            </div>
+              <div class="speechbox sb">
+                <p>“Hi, I'm Teresa! I am a very energetic, loving, and playful dog! I shows my love by jumping
+                    or giving kisses on the arm or hand. I enjoys being outside, chasing after tennis balls,
+                    and chewing on dog toys. My favorite thing in the world is to be running and playing with
+                    other dogs. I also loves the water!”</p>
+              </div>
+              <i><img src="assets/images/teresa.png" alt="Author One"></i>
+          </div>
+            <h4>Teresa</h4>
+            <span>Shelter 59 days</span>
+            <div class="slider-buttons">
+             <a href="" class="main-button" data-toggle="modal" data-target="#myModal">Give a Treat </a>
+              <a href="#View Photo Collection" class="main-button">Contact Shelter </a>
+            </div>
+        </div>
       </div>
-    
+
       <div class="item">
-        <img src="assets/images/cat1.png" alt="New york" style="width:100%;">
+        <div class="testimonial-content">
+          <div class="author">
+            <div class="fav">
+              <i></i>
+              <span>Added to favorites!</span>
+            </div>
+              <div class="speechbox sb">
+                <p>“Hi, I'm George! I am a remarkably smart boy that will make a loving and loyal companion for my
+                    future adopter. My ideal home will be a stable, structured environment with a safe
+                    yard for energetic play. I am an exceptionally athletic and eager playmate who will
+                    require a good yarn for my favorite pastime!”</p>
+              </div>
+              <i><img src="assets/images/cat1.png" alt="Author One"></i>
+          </div>
+            <h4>George</h4>
+            <span>Shelter 59 days</span>
+            <div class="slider-buttons">
+              <a href="" class="main-button" data-toggle="modal" data-target="#myModal">Give a Treat </a>
+              <a href="#View Photo Collection" class="main-button">Contact Shelter </a>
+            </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="testimonial-content">
+          <div class="author">
+            <div class="fav">
+              <i></i>
+              <span>Added to favorites!</span>
+            </div>
+              <div class="speechbox sb">
+                <p>“Hi, I'm Sir James, and I am looking for someone to sit on the couch and eat snacks with
+                    all day. I may not make the best running partner, but I make an amazing cuddling partner!
+                    Although I am an expert at snuggling, I also takes his playtime very seriously.
+                    I loves playing tug and have a talent for extracting the squeaker from just about any toy."</p>
+              </div>
+              <i><img src="assets/images/dog3.png" alt="Author One"></i>
+          </div>
+            <h4>Sir James</h4>
+            <span>Shelter 59 days</span>
+            <div class="slider-buttons">
+              <a href="" class="main-button" data-toggle="modal" data-target="#myModal">Give a Treat </a>
+              <a href="#View Photo Collection" class="main-button">Contact Shelter </a>
+            </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="item">
+        <div class="testimonial-content">
+          <div class="author">
+            <div class="fav">
+              <i></i>
+              <span>Added to favorites!</span>
+            </div>
+              <div class="speechbox sb">
+                <p>“Hi, I'm Sir James, and I am looking for someone to sit on the couch and eat snacks with
+                    all day. I may not make the best running partner, but I make an amazing cuddling partner!
+                    Although I am an expert at snuggling, I also takes his playtime very seriously.
+                    I loves playing tug and have a talent for extracting the squeaker from just about any toy."</p>
+              </div>
+              <i><img src="assets/images/cat2.png" alt="Author One"></i>
+          </div>
+            <h4>Carbon</h4>
+            <span>Shelter 56 days</span>
+            <div class="slider-buttons">
+              <a href="" class="main-button" data-toggle="modal" data-target="#myModal">Give a Treat </a>
+              <a href="#View Photo Collection" class="main-button">Contact Shelter </a>
+            </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="testimonial-content">
+          <div class="author">
+            <div class="fav">
+              <i></i>
+              <span>Added to favorites!</span>
+            </div>
+              <div class="speechbox sb">
+                <p>“Hi nice to meet you I am Cooper! Will you be my family?
+                  I have been in the shelter 50 days. I love my naps!"</p>
+              </div>
+              <i><img src="assets/images/dog3.png" alt="Author One"></i>
+          </div>
+            <h4>Cooper</h4>
+            <span>Shelter 50 days</span>
+            <div class="slider-buttons">
+              <a href="" class="main-button" data-toggle="modal" data-target="#myModal">Give a Treat </a>
+              <a href="#View Photo Collection" class="main-button">Contact Shelter </a>
+            </div>
+        </div>
       </div>
     </div>
 
@@ -112,48 +188,47 @@
 </div>
 
 <script>
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("filterDiv");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
     }
   }
-  element.className = arr1.join(" ");
-}
 
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
 </script>
 
 </body>
