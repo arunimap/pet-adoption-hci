@@ -163,7 +163,7 @@
                     Cats
                 </button>
 
-                <button class="btn" onclick="filterSelection('hypo')" data-target="#myCarousel" data-slide-to="0">
+                <button class="btn" onclick="filterSelection('hypo')" data-toggle="modal" data-target="#inProgressModal">
                     Hypoallergenic
                 </button>
 
@@ -626,7 +626,7 @@
 </div>
 
 </div>
-<!-- Verification Modal end -->
+<!-- Thank You Modal end -->
 <!-- Sally Modal -->
 <div class="modal fade" id="sallyModal" role="dialog">
     <div class="modal-dialog">
@@ -757,6 +757,22 @@
             </div>
         </div>
     </div>
+</div>
+<!-- Does not work Modal -->
+<div class="modal fade" id="inProgressModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <H4>This filter is  currently being built. Imagine this would filter to the animal that fits the criteria. For the hypoallergenic task please favorite George the cat.</H4>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 </div>
 
 <script type="text/javascript">
