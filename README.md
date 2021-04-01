@@ -1,13 +1,15 @@
-# pet-adoption-hci
-Github Pages: https://arunimap.github.io/pet-adoption-hci/
-IS4300 Paw Patrol Web Page
-Megan Lau, lau.me@northeastern.edu
-Christina Medeiros, medeiros.ch@northeastern.edu
-Arunima Prasad, prasad.aru@northeastern.edu
-All members are registered for the IS4300 version of the course
+# pet-adoption-hci — Paw Patrol Web Page
 
+An interactive prototype of Paw Patrol can be found at https://arunimap.github.io/pet-adoption-hci/
+
+## The Team 
+Note: All members are registered for the IS4300 (undergrad) version of the course
+- Megan Lau, lau.me@northeastern.edu
+- Christina Medeiros, medeiros.ch@northeastern.edu
+- Arunima Prasad, prasad.aru@northeastern.edu
+
+## Assignment Submissions
 - Team Contract and Proposal: https://github.com/arunimap/pet-adoption-hci/blob/main/Deliverables/T1-Paw%20Patrol-Lau-Prasad-Medeiros.pdf
-
 
 - T1: https://drive.google.com/file/d/1Sk5AoaAq6ad4Wfrw401xUQujHDU0CDo_/view?usp=sharing
 
@@ -15,6 +17,8 @@ All members are registered for the IS4300 version of the course
 
 - T3:https://docs.google.com/document/d/1TieORWYM5mJLATECyZAYnGXzN_5EPYFbKDagnI3wjcg/edit?usp=sharing
 
-- Paper Prototype — Version 1: https://docs.google.com/document/d/1TieORWYM5mJLATECyZAYnGXzN_5EPYFbKDagnI3wjcg/edit#heading=h.3wc0yddind70
+    - Paper Prototype — Version 1: https://docs.google.com/document/d/1TieORWYM5mJLATECyZAYnGXzN_5EPYFbKDagnI3wjcg/edit#heading=h.3wc0yddind70
 
-- Paper Prototype — Revised: formatting
+    - Paper Prototype — Revised: formatting
+
+- T4: https://drive.google.com/file/d/1IHafCfQcxkVjuvsEJzMrUDbG6YNXyrUM/view?usp=sharing
