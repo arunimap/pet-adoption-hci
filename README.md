@@ -1,13 +1,12 @@
-# pet-adoption-hci
-IS4300 Paw Patrol Web Page
+# pet-adoption-hci — Paw Patrol Web Page
+
+An interactive prototype of Paw Patrol can be found at https://arunimap.github.io/pet-adoption-hci/
 
 ## The Team 
 Note: All members are registered for the IS4300 (undergrad) version of the course
 - Megan Lau, lau.me@northeastern.edu
 - Christina Medeiros, medeiros.ch@northeastern.edu
 - Arunima Prasad, prasad.aru@northeastern.edu
-
-An interactive prototype of Paw Patrol can be found at https://arunimap.github.io/pet-adoption-hci/
 
 ## Assignment Submissions
 - Team Contract and Proposal: https://github.com/arunimap/pet-adoption-hci/blob/main/Deliverables/T1-Paw%20Patrol-Lau-Prasad-Medeiros.pdf
