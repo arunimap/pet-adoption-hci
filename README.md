@@ -15,6 +15,8 @@ All members are registered for the IS4300 version of the course
 
 - T3:https://docs.google.com/document/d/1TieORWYM5mJLATECyZAYnGXzN_5EPYFbKDagnI3wjcg/edit?usp=sharing
 
-- Paper Prototype — Version 1: https://docs.google.com/document/d/1TieORWYM5mJLATECyZAYnGXzN_5EPYFbKDagnI3wjcg/edit#heading=h.3wc0yddind70
+    - Paper Prototype — Version 1: https://docs.google.com/document/d/1TieORWYM5mJLATECyZAYnGXzN_5EPYFbKDagnI3wjcg/edit#heading=h.3wc0yddind70
 
-- Paper Prototype — Revised: formatting
+    - Paper Prototype — Revised: formatting
+
+- T4: https://drive.google.com/file/d/1IHafCfQcxkVjuvsEJzMrUDbG6YNXyrUM/view?usp=sharing
