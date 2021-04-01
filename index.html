@@ -203,9 +203,8 @@
                                     <span>liked!</span>
                                 </div>
                                 <div class="speechbox sb">
-                                    <p>“Hi nice to meet you! My name is Sally! Will you be my family? I have been in the
-                                        shelter 60 days.
-                                        I love treats and running in the yard.”</p>
+                                    <p>“Hi nice to meet you! My name is Sally! Will you be my family? I have been in the shelter 60 days.
+                                        I love treats and running in the yard. I'm really close within 20 miles!”</p>
                                     <p style="display:inline;" data-toggle="modal" data-target="#sallyModal"> More</p><i class="fa fa-chevron-right" data-toggle="modal" data-target="#sallyModal"style="color:black;"></i>
                                 </div>
                                 <i><img src="assets/images/sally.png" alt="Author One"></i>
@@ -642,8 +641,8 @@
                     <div class="mySlides">
                         <img src="assets/images/sally3.jpeg" style="width:100%">
                     </div>
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)" style="float: right">❯</a>
+                   <!--  <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)" style="float: right">❯</a> -->
                 </div>
             </div>
         </div>
@@ -663,8 +662,8 @@
                     <div class="mySlides">
                         <img src="assets/images/teresa3.jpeg" style="width:100%">
                     </div>
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)" style="float: right">❯</a>
+                    <!-- <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)" style="float: right">❯</a> -->
                 </div>
             </div>
         </div>
@@ -686,8 +685,8 @@
                     <div class="mySlides">
                         <img src="assets/images/george3.jpeg" style="width:100%">
                     </div>
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)" style="float: right">❯</a>
+                    <!-- <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)" style="float: right">❯</a> -->
                 </div>
             </div>
         </div>
@@ -709,8 +708,8 @@
                     <div class="mySlides">
                         <img src="assets/images/sirjames3.jpeg" style="width:100%">
                     </div>
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)" style="float: right">❯</a>
+                    <!-- <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)" style="float: right">❯</a> -->
                 </div>
             </div>
         </div>
@@ -732,8 +731,8 @@
                     <div class="mySlides">
                         <img src="assets/images/carbon3.jpeg" style="width:100%">
                     </div>
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)" style="float: right">❯</a>
+                    <!-- <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)" style="float: right">❯</a> -->
                 </div>
             </div>
         </div>
@@ -750,13 +749,10 @@
                 <div class="container">
                      <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <div class="mySlides">
-                        <img src="assets/images/henry2.jpeg" style="width:100%">
-                    </div>
-                    <div class="mySlides">
                         <img src="assets/images/henry3.jpeg" style="width:100%">
                     </div>
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)" style="float: right">❯</a>
+                    <!-- <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)" style="float: right">❯</a> -->
                 </div>
             </div>
         </div>
@@ -777,7 +773,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("mySlides")-10;
   var dots = document.getElementsByClassName("demo");
   var captionText = document.getElementById("caption");
   if (n > slides.length) {slideIndex = 1}
