@@ -1286,7 +1286,10 @@ display: inline-block
 
 .card-body {
     flex: 1 1 auto;
-    padding: 1.25rem
+    padding: 1.25rem;
+    background: rgb(244,129,63);
+  width: 100%;
+  background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
 }
 
 .form-control:focus {
