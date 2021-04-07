@@ -21,4 +21,7 @@ Note: All members are registered for the IS4300 (undergrad) version of the cours
 
     - Paper Prototype — Revised: formatting
 
-- T4: https://drive.google.com/file/d/1IHafCfQcxkVjuvsEJzMrUDbG6YNXyrUM/view?usp=sharing
+- T4: 
+    - Part 1: https://drive.google.com/file/d/1IHafCfQcxkVjuvsEJzMrUDbG6YNXyrUM/view?usp=sharing
+    - Part 2A: https://drive.google.com/file/d/1aTR1yJvBk04iYLZB77DRrlfQIjnlRD5-/view?usp=sharing
+    - Part 2B: https://drive.google.com/file/d/1bhN4UiJjEBiBWwDdO3uTJknXYXMuZKpW/view?usp=sharing
